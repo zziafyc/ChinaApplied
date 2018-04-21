@@ -1,0 +1,13 @@
+<!--pages/trend/trend.wxml-->
+<view class='container'>
+  <view class='title'>
+    <text style='color:#0f0f0f'>{{title}}</text>
+  </view>
+  <view class='image'>
+    <image src='{{imageUrl}}' style='height:100%;width:100%;'></image>
+  </view>
+  <view class='content'>
+    <text style='color:#3a444e'>{{content}}</text>
+  </view>
+
+</view>

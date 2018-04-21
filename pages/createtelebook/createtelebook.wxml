@@ -1,0 +1,22 @@
+<!--pages/createtelebook/createtelebook.wxml-->
+
+<view class='container'>
+  <view class='background'>
+    <image name="backgroudUrl" src='{{backgroundUrl}}' bindtap='chageBackground' style='width:100%;height:100%;' mode='aspectFill'></image>
+    <view class='changeBackground'>
+      <text bindtap='changeBackground' style='color:#fff;'>点击更换背景</text>
+    </view>
+  </view>
+
+  <view class='group'>
+    <view class='group-name'>
+      <text class='group-name-label'>群名称</text>
+      <input class='group-name-input' placeholder='请输入群名称' placeholder-style='font-size:15px;' bindinput='nameInput' name="name"></input>
+    </view>
+    <view class='group-content'>
+      <text class='group-content-label'>群简介</text>
+      <textarea class='group-content-input' placeholder='请输入群简介' placeholder-style='font-size:15px;' bindinput='contentInput' name="description"></textarea>
+    </view>
+  </view>
+  <button class='createTelebook' bindtap='savaTelebook'> 保存</button>
+</view>

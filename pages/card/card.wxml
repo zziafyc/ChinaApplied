@@ -1,0 +1,32 @@
+<!--pages/card/card.wxml-->
+<view class='container'>
+  <view>
+    <view class='card'>
+      <image src='../images/card.png' class='bg'></image>
+      <view class='info1'>
+        <view class='left'>
+          <image src='../images/avatar.png' class='avatar'></image>
+        </view>
+        <view class='right'>
+          <view>
+            <text class='name'>方应春</text>
+            <text class='job'>安卓开发工程师</text>
+          </view>
+          <view class='telling'>
+            <text style='margin-top:5rpx;'>18756993820</text>
+            <image src='../images/tell.png' class='avatarTelling' bindtap='callPhone'></image>
+          </view>
+        </view>
+      </view>
+      <view class='info2'>
+        <text class='item'>微信号：fang411522</text>
+        <text class='item'>公司：中用科技有限公司</text>
+        <text class='item'>地址：合肥创新产业园（蜀山区）</text>
+      </view>
+    </view>
+
+
+  </view>
+
+
+</view>

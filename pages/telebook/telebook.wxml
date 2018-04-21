@@ -1,0 +1,16 @@
+<!--pages/telebook/telebook.wxml-->
+<view class='container'>
+  <view class='createTelebook' bindtap='createTelebook'>
+    <text>创建新的群通讯录</text>
+  </view>
+  <view wx:for="{{telebooks}}" wx:for-index="index" wx:for-item="item" wx:key="" style='width:100%;height:100%;'>
+    <view class='telebook-list' bindtap='GoTelebookDescription' data-telebook='{{item}}' hover-class='none'>
+      <image src='{{item.avatar}}' class='telebook-left'></image>
+      <view class='telebook-right'>
+        <text style='font-size:15px;color:#2397f2;'>{{item.name}}</text>
+        <text style='font-size:14px;color:#3a444e;' class='item-content'>简介：{{item.content}}</text>
+      </view>
+    </view>
+  </view>
+
+</view>

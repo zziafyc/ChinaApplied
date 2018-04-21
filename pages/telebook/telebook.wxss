@@ -1,0 +1,58 @@
+/* pages/telebook/telebook.wxss */
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.createTelebook {
+  margin-top: 30rpx;
+  height: 90rpx;
+  width: 90%;
+  border-radius: 4px;
+  background: #2397f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+  color: #fff;
+}
+
+.telebook-list {
+  width: 86%;
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 30rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 4px;
+  border-color: #cdcdcd;
+  border-style: solid;
+  border-width: 1px;
+  padding: 2%;
+}
+
+.telebook-left {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 4px;
+  margin: 5rpx;
+}
+
+.telebook-right {
+  width: 450rpx;
+  height: 90rpx;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+  font-size: 30rpx;
+}
+
+.item-content {
+  margin-top: 15rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

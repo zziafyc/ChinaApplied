@@ -1,0 +1,75 @@
+/* pages/card/card.wxss */
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  color: #fff;
+  font-size: 15px;
+}
+
+.bg {
+  margin-top: 40rpx;
+  width: 95%;
+  height: 350rpx;
+  position: fixed;
+  border-radius: 20rpx;
+  border-color: #2397f2;
+}
+
+.info1 {
+  width: 95%;
+  height: 200rp;
+  position: fixed;
+  top: 55rpx;
+  left: 35rpx;
+  display: flex;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+}
+
+.info2 {
+  position: fixed;
+  top: 220rpx;
+  left: 40rpx;
+  display: flex;
+  flex-direction: column;
+  padding: 10rpx;
+}
+
+.job {
+  margin-left: 30rpx;
+}
+
+.telling {
+}
+
+.avatar {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  margin-left: 20rpx;
+}
+
+.avatarTelling {
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+  margin-left: 20rpx;
+  padding-top: 15rpx;
+}
+
+.item {
+  margin-bottom: 10rpx;
+}

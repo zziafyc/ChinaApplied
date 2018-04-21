@@ -1,0 +1,30 @@
+/* pages/trend/trend.wxss */
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  width: 94%;
+  font-size: 40rpx;
+  display: flex;
+  margin: 3%;
+  justify-content: center;
+}
+
+.image {
+  width: 86%;
+  height: 400rpx;
+  margin-top: 40rpx;
+  justify-content: center;
+}
+
+.content {
+  margin: 15px;
+  font-size: 30rpx;
+  line-height: 30px;
+  justify-content: center;
+}

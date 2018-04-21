@@ -1,0 +1,156 @@
+/**index.wxss**/
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.scroll-view {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 50rpx;
+}
+
+.top {
+  width: 100%;
+  height: 80rpx;
+  background-color: #2397f2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.search-input {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 70%;
+  background-color: white;
+  border-radius: 8rpx;
+  align-items: center;
+  padding-left: 10rpx;
+  margin-top: 10rpx;
+}
+
+.search-image {
+  width: 50rpx;
+  height: 40rpx;
+}
+
+.banner-view {
+  width: 100%;
+  height: 350rpx;
+  margin-top: 80rpx;
+}
+
+.banner-swipe {
+  width: 100%;
+  height: 100%;
+}
+
+.selection-label {
+  width: 94%;
+  height: 75rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15rpx;
+  border-left-color: #2397f2;
+  border-left-style: solid;
+  border-left-width: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.label-text {
+  font-size: 35rpx;
+}
+
+.more {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.more-img {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.selection {
+  width: 100%;
+  height: 250rpx;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rpx;
+}
+
+.selection-item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-bottom: #cdcdcd;
+  border-width: 1rpx;
+  border-bottom-style: solid;
+  align-items: center;
+  position: relative;
+}
+
+.item-img {
+  width: 40%;
+  height: 180rpx;
+  margin-left: 20rpx;
+  border-radius: 6px;
+}
+
+.item-content {
+  width: 60%;
+  height: 100%;
+  margin-left: 10rpx;
+  font-size: 35rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10rpx;
+  padding-right: 30rpx;
+}
+
+.content {
+  display: -webkit-box;
+  font-size: 28rpx;
+  color: #000;
+  line-height: 45rpx;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.time {
+  position: absolute;
+  bottom: 15rpx;
+  right: 20rpx;
+  font-size: 25rpx;
+  color: #2397f2;
+}
